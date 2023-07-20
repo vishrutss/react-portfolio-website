@@ -23,7 +23,7 @@ const Skills = () => {
                             <p>React JS</p>
                             <p>Node.js</p>
                             <p>Spring MVC</p>
-                            <p>Cucumber automated testing</p>
+                            <p>Cucumber testing</p>
                         </article>
                         <article className="skills__card">
                             <h3>Tools</h3>
