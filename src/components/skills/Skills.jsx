@@ -10,34 +10,34 @@ const Skills = () => {
                     <div className="skills__cards">
                         <article className="skills__card">
                             <h3>Programming Languages</h3>
-                            <small>Java</small>
-                            <small>Python</small>
-                            <small>C & C++</small>
-                            <small>RUST</small>
-                            <small>JavaScript</small>
-                            <small>HTML & CSS</small>
-                            <small>SQL</small>
+                            <p>Java</p>
+                            <p>Python</p>
+                            <p>C & C++</p>
+                            <p>RUST</p>
+                            <p>JavaScript</p>
+                            <p>HTML & CSS</p>
+                            <p>SQL</p>
                         </article>
                         <article className="skills__card">
                             <h3>Frameworks</h3>
-                            <small>React JS</small>
-                            <small>Node.js</small>
-                            <small>Spring MVC</small>
-                            <small>Cucumber automated testing</small>
+                            <p>React JS</p>
+                            <p>Node.js</p>
+                            <p>Spring MVC</p>
+                            <p>Cucumber automated testing</p>
                         </article>
                         <article className="skills__card">
                             <h3>Tools</h3>
-                            <small>Docker</small>
-                            <small>Git</small>
-                            <small>JIRA</small>
-                            <small>Visual Studio & VS Code</small>
-                            <small>MySQL</small>
-                            <small>PyCharm</small>
+                            <p>Docker</p>
+                            <p>Git</p>
+                            <p>JIRA</p>
+                            <p>Visual Studio & VS Code</p>
+                            <p>MySQL</p>
+                            <p>PyCharm</p>
                         </article>
                         <article className="skills__card">
                             <h3>Cloud Platforms</h3>
-                            <small>Google Cloud Platform</small>
-                            <small>AWS Learner Lab</small>
+                            <p>Google Cloud Platform</p>
+                            <p>AWS Learner Lab</p>
                         </article>
                     </div>
                 </div>
