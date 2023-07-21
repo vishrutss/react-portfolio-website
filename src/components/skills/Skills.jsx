@@ -18,7 +18,7 @@ const Skills = () => {
                         <article className="skills__details">
                             <BsFillPatchCheckFill/>
                             <h4>CSS</h4>
-                            <small>Experienced</small>
+                            <small>Intermediate</small>
                         </article>
                         <article className="skills__details">
                             <BsFillPatchCheckFill/>
