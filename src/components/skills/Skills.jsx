@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-import {BsFillPatchCheckFill} from 'react-icons/bs'
+import { BsFillPatchCheckFill } from 'react-icons/bs'
 
 const Skills = () => {
     return (
@@ -11,24 +11,32 @@ const Skills = () => {
                     <h3>Frontend Development</h3>
                     <div className="skills__content">
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>HTML</h4>
-                            <small>Experienced</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>HTML</h4>
+                                <small>Experienced</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>CSS</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>CSS</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>JavaScript</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>JavaScript</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>React</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>React</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                     </div>
                 </div>
@@ -36,64 +44,81 @@ const Skills = () => {
                     <h3>Backend Development</h3>
                     <div className="skills__content">
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Java</h4>
-                            <small>Experienced</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Java</h4>
+                                <small>Experienced</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Python</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Python</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>RUST</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>RUST</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Node JS</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Node JS</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>C & C++</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>C & C++</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Node JS</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Node JS</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>MySQL</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>MySQL</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Spring MVC</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Spring MVC</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Docker</h4>
-                            <small>Intermediate</small>
-                        </article>
-                    </div>
-                </div>
-                <div className="skills__cloud">
-                    <h3>Cloud Development</h3>
-                    <div className="skills__content">
-                        <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>Google Cloud Platform</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Docker</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                         <article className="skills__details">
-                            <BsFillPatchCheckFill/>
-                            <h4>AWS Learner Lab</h4>
-                            <small>Intermediate</small>
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>Google Cloud Platform</h4>
+                                <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill />
+                            <div>
+                                <h4>AWS Learner Lab</h4>
+                                <small>Intermediate</small>
+                            </div>
                         </article>
                     </div>
                 </div>
