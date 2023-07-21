@@ -1,43 +1,99 @@
 import React from 'react'
 import './skills.css'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
 
 const Skills = () => {
     return (
         <section id="skills">
             <h2>My Skills</h2>
             <div className="container skills__container">
-                <div className="skills__content">
-                    <div className="skills__cards">
-                        <article className="skills__card">
-                            <h3>Programming Languages</h3>
-                            <p>Java</p>
-                            <p>Python</p>
-                            <p>C & C++</p>
-                            <p>RUST</p>
-                            <p>JavaScript</p>
-                            <p>HTML & CSS</p>
-                            <p>SQL</p>
+                <div className="skills__frontend">
+                    <h3>Frontend Development</h3>
+                    <div className="skills__content">
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>HTML</h4>
+                            <small>Experienced</small>
                         </article>
-                        <article className="skills__card">
-                            <h3>Frameworks</h3>
-                            <p>React JS</p>
-                            <p>Node.js</p>
-                            <p>Spring MVC</p>
-                            <p>Cucumber testing</p>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>CSS</h4>
+                            <small>Experienced</small>
                         </article>
-                        <article className="skills__card">
-                            <h3>Tools</h3>
-                            <p>Docker</p>
-                            <p>Git</p>
-                            <p>JIRA</p>
-                            <p>Visual Studio & VS Code</p>
-                            <p>MySQL</p>
-                            <p>PyCharm</p>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>JavaScript</h4>
+                            <small>Intermediate</small>
                         </article>
-                        <article className="skills__card">
-                            <h3>Cloud Platforms</h3>
-                            <p>Google Cloud Platform</p>
-                            <p>AWS Learner Lab</p>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>React</h4>
+                            <small>Intermediate</small>
+                        </article>
+                    </div>
+                </div>
+                <div className="skills__backend">
+                    <h3>Backend Development</h3>
+                    <div className="skills__content">
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Java</h4>
+                            <small>Experienced</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Python</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>RUST</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Node JS</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>C & C++</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Node JS</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>MySQL</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Spring MVC</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Docker</h4>
+                            <small>Intermediate</small>
+                        </article>
+                    </div>
+                </div>
+                <div className="skills__cloud">
+                    <h3>Cloud Development</h3>
+                    <div className="skills__content">
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>Google Cloud Platform</h4>
+                            <small>Intermediate</small>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill/>
+                            <h4>AWS Learner Lab</h4>
+                            <small>Intermediate</small>
                         </article>
                     </div>
                 </div>
