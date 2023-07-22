@@ -9,9 +9,9 @@ const Experience = () => {
             <div className="container">
                 <div className="experience__container">
                     <h3>My Experience</h3>
-                    <div className="experience__content">
-                        <article className='experience__details'>
-                            <BsFillPatchCheckFill className='experience__details-icon' />
+                    <div className="content">
+                        <article className='details'>
+                            <BsFillPatchCheckFill className='details-icon' />
                             <div>
                                 <h3>Application Development Analyst</h3>
                                 <h5>Accenture Solutions Ltd., Bengaluru, India | Oct 2020 - Jul 2022</h5>
@@ -20,7 +20,7 @@ const Experience = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className='experience__details'>
+                        <article className='details'>
                             <BsFillPatchCheckFill className='details-icon' />
                             <div>
                                 <h3>Software Engineering Intern</h3>
@@ -34,8 +34,8 @@ const Experience = () => {
                 </div>
                 <div className="education__container">
                     <h3>My Education</h3>
-                    <div className="education__content">
-                        <article className='education__details'>
+                    <div className="content">
+                        <article className='details'>
                             <BsFillPatchCheckFill className='details-icon' />
                             <div>
                                 <h3>Masters In Computer Science</h3>
@@ -46,7 +46,7 @@ const Experience = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className='education__details'>
+                        <article className='details'>
                             <BsFillPatchCheckFill className='details-icon' />
                             <div>
                                 <h3>Bachelors in Computer Science</h3>
