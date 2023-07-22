@@ -5,11 +5,11 @@ const Experience = () => {
     return (
         <section id="experience">
             <h2>My Experience & Education</h2>
-            <div className="container">
-                <div className="experience__container">
+            <div className="container experience__container">
+                <div className="experience">
                     <h3>My Experience</h3>
-                    <div className="content">
-                        <article className='details'>
+                    <div className="experience__content">
+                        <article className='experience__details'>
                             <div>
                                 <h4>Application Development Analyst</h4>
                                 <h5>Accenture Solutions Ltd., Bengaluru, India | Oct 2020 - Jul 2022</h5>
@@ -18,7 +18,7 @@ const Experience = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className='details'>
+                        <article className='experience__details'>
                             <div>
                                 <h4>Software Engineering Intern</h4>
                                 <h5>Integra Micro Systems, Bengaluru, India | Jun 2019 - Jul 2019</h5>
@@ -29,10 +29,10 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
-                <div className="education__container">
+                <div className="education">
                     <h3>My Education</h3>
-                    <div className="content">
-                        <article className='details'>
+                    <div className="experience__content">
+                        <article className='experience__details'>
                             <div>
                                 <h4>Masters In Computer Science</h4>
                                 <h5>Portland State University, Portland, OR, USA | 2022 - present</h5>
@@ -42,7 +42,7 @@ const Experience = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className='details'>
+                        <article className='experience__details'>
                             <div>
                                 <h4>Bachelors in Computer Science</h4>
                                 <h5>NMAM Institute of Technology, Nitte, KA, India | 2016 - 2020</h5>
