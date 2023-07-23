@@ -41,6 +41,7 @@
 
 .skills__details-icon {
     margin-top: 6px;
+    flex-shrink: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -59,7 +60,7 @@
     }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
     .skills__container {
         gap: 1rem;
     }
