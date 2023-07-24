@@ -22,8 +22,8 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: 0;
+    position: fixed;
+    left: 2rem;
     bottom: 3rem;
 }
 
@@ -47,8 +47,8 @@ header {
 }
 
 .scroll__down {
-    position: absolute;
-    right: -2.3rem;
+    position: fixed;
+    right: -0.6rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
