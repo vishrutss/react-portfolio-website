@@ -44,7 +44,7 @@
     color: rgb(157, 205, 240);
 }
 
-form .btn-primary{
+form .btn-primary {
     width: 100%;
 }
 
@@ -62,6 +62,18 @@ textarea {
     background: var(--color-bg-variant);
     border: 2px solid var(--color-primary-variant);
     resize: none;
+}
+
+
+input:focus,
+textarea:focus {
+    background: white;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--color-black)
 }
 
 @media screen and (max-width: 1024px) {
