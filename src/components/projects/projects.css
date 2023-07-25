@@ -12,11 +12,6 @@
     transition: var(--transition);
 }
 
-.project__details:hover {
-    border-color: var(--color-primary-variant);
-    background: var(--color-dark);
-}
-
 .project__item-image {
     width: 200px;
     height: 100px;
