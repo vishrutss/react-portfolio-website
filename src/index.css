@@ -99,7 +99,7 @@ a:hover {
 .btn:hover {
   background: var(--color-bg-variant);
   color: var(--color-black);
-  border-color: transparent;
+  border-color: var(--color-black);
 }
 
 .btn-primary {
