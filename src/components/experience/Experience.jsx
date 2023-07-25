@@ -14,7 +14,7 @@ const Experience = () => {
                                 <h4>Application Development Analyst</h4>
                                 <h5>Accenture Solutions Ltd., Bengaluru, India <br />Oct 2020 - Jul 2022</h5>
                                 <p>
-                                    I worked as part of the Shop Disney Test Automoation team. My work included building and refactoring automated test cases using Node JS and the Cucumber framework. I was also in charge of maintaining Shop Disney Japan's Test Automation Repository. I also was a part of automated test regressions for ShopDisney US, ShopDisney Japan, ShopDisney EMEA, and ShopDisney OMS (Order management system).
+                                    I have been a valuable member of the Shop Disney Test Automation team, where I actively contributed to building and refactoring automated test cases using Node.js and the Cucumber framework. Moreover, I assumed the responsibility of maintaining Shop Disney Japan's Test Automation Repository. Additionally, I played an integral role in conducting automated test regressions for ShopDisney US, ShopDisney Japan, and ShopDisney OMS (Order Management System).
                                 </p>
                             </div>
                         </article>
@@ -23,7 +23,7 @@ const Experience = () => {
                                 <h4>Software Engineering Intern</h4>
                                 <h5>Integra Micro Systems, Bengaluru, India <br />Jun 2019 - Jul 2019</h5>
                                 <p>
-                                    I Created an application which accesses Twitter using the REST API to be able to read the user’s timeline, search for tweets and send tweets. Learned the basics of implementing the functions in the REST API. Completed all aspects of the project including requirements specification, design, implementation, testing and documentation.
+                                    During my Internship I developed an application that leverages the REST API of Twitter, enabling seamless access to functionalities like reading the user's timeline, searching for tweets, and sending tweets. Throughout this project, I acquired a strong foundation in implementing various functions within the REST API. I successfully completed all stages of the project, encompassing requirements specification, design, implementation, testing, and comprehensive documentation.
                                 </p>
                             </div>
                         </article>
@@ -38,7 +38,14 @@ const Experience = () => {
                                 <h5>Portland State University, Portland, OR, USA  <br />2022 - present</h5>
                                 <h5>GPA 3.82</h5>
                                 <p>
-                                    I am currently pursuing my Masters Degree at Portland State University. Here are some of the courses I have completed: Programming in RUST, Intro to Database Systems, Machine Learning, Artificial Intelligence, Web & Cloud Systems.
+                                    I am currently pursuing my Masters Degree at Portland State University. Here are some of the courses I have completed:
+                                    <ul className='experience__list'>
+                                        <li>Programming in RUST</li>
+                                        <li>Intro to Database Systems</li>
+                                        <li>Machine Learning</li>
+                                        <li>Artificial Intelligence</li>
+                                        <li>Web & Cloud Systems</li>
+                                    </ul>
                                 </p>
                             </div>
                         </article>
@@ -48,7 +55,14 @@ const Experience = () => {
                                 <h5>NMAM Institute of Technology, Nitte, KA, India  <br />2016 - 2020</h5>
                                 <h5>CGPA 8.53 out of 10</h5>
                                 <p>
-                                    I am currently pursuing my Masters Degree at Portland State University. Here are some of the courses I have completed: Programming in RUST, Intro to Database Systems, Machine Learning, Artificial Intelligence, Web & Cloud Systems.
+                                    Some of the courses I completed during my Bachelors:
+                                    <ul className='experience__list'>
+                                        <li>Operating Systems</li>
+                                        <li>Data Structures</li>
+                                        <li>Design and Analysis Of Algorithms</li>
+                                        <li>Mobile App Development</li>
+                                        <li>Compiler Design</li>
+                                    </ul>
                                 </p>
                             </div>
                         </article>

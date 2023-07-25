@@ -55,6 +55,27 @@
     gap: 1rem;
 }
 
+.experience__list {
+    list-style: none;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.experience__list li {
+    position: relative;
+    display: flex;
+}
+
+.experience__list li::before {
+    content: '\2022';
+    font-size: 1.8rem;
+    position: absolute;
+    left: -1.5rem;
+    top: -0.7rem;
+}
+
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
