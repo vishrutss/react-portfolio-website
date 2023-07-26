@@ -77,7 +77,7 @@ const Projects = () => {
                                     <img src={img} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
-                                <a href={github} className='btn'>Github</a>
+                                <a href={github} className='btn' target='_blank' rel="noopener noreferrer">Github</a>
                             </article>
                         )
                     })
