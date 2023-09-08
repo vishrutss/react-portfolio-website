@@ -116,17 +116,18 @@ const Skills = () => {
                         <article className="skills__details">
                             <BsFillPatchCheckFill className='skills__details-icon' />
                             <div>
-                                <h4>Google Cloud Platform</h4>
+                                <h4>AWS Learner Lab</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
                         <article className="skills__details">
                             <BsFillPatchCheckFill className='skills__details-icon' />
                             <div>
-                                <h4>AWS Learner Lab</h4>
+                                <h4>Google Cloud Platform</h4>
                                 <small>Intermediate</small>
                             </div>
                         </article>
+                        
                     </div>
                 </div>
             </div>
