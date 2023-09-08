@@ -9,54 +9,60 @@ import MATLAB_IMG from '../../assets/matlab.png'
 const data = [
     {
         id: 1,
+        title: 'Full Stack Chat Application',
+        img: JS_IMG,
+        github: 'https://github.com/vishrutss/react-chat-app'
+    },
+    {
+        id: 2,
         title: 'A Text Based Adventure Game written in RUST',
         img: RUST_IMG,
         github: 'https://github.com/vishrutss/Text-based-adventure-game-in-Rust'
     },
     {
-        id: 2,
+        id: 3,
         title: 'An Amusement Park created using OpenGL',
         img: CPP_IMG,
         github: 'https://github.com/vishrutss/Amusement_Park'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Image Editor Program',
         img: CPP_IMG,
         github: 'https://github.com/vishrutss/Image_Editor'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Chess AI Project',
         img: PYTHON_IMG,
         github: 'https://github.com/vishrutss/ChessProject'
     },
     {
-        id: 5,
+        id: 6,
         title: 'A group of JavaScript Projects',
         img: JS_IMG,
         github: 'https://github.com/vishrutss/Learning-JavaScript'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Vulgar tweet identification using Machine Learning',
         img: PYTHON_IMG,
         github: 'https://github.com/queoui/VulgarTweetIdentification'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Internet Relay Chat Project',
         img: PYTHON_IMG,
         github: 'https://github.com/master-of-none/IPProject'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Product Key Activation using Asymmetric Cryptography',
         img: PYTHON_IMG,
         github: 'https://github.com/vishrutss/Product_Key_Activation_Project'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Driver Drowsiness Detection program',
         img: MATLAB_IMG,
         github: 'https://github.com/vishrutss/Driver-Drowsiness-Detection'

@@ -38,6 +38,13 @@ const Skills = () => {
                                 <small>Intermediate</small>
                             </div>
                         </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>Express</h4>
+                                <small>Beginner</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div className="skills__backend">
@@ -83,6 +90,13 @@ const Skills = () => {
                             <div>
                                 <h4>MySQL</h4>
                                 <small>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="skills__details">
+                            <BsFillPatchCheckFill className='skills__details-icon' />
+                            <div>
+                                <h4>Mongo DB</h4>
+                                <small>Beginner</small>
                             </div>
                         </article>
                         <article className="skills__details">
