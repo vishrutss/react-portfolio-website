@@ -35,10 +35,10 @@ const Experience = () => {
                         <article className='experience__details'>
                             <div>
                                 <h4>Masters In Computer Science</h4>
-                                <h5>Portland State University, Portland, OR, USA  <br />2022 - present</h5>
-                                <h5>GPA 3.82</h5>
+                                <h5>Portland State University, Portland, OR, USA  <br />2022 - 2024</h5>
+                                <h5>GPA 3.87</h5>
                                 <p>
-                                    I am currently pursuing my Masters Degree at Portland State University. Here are some of the courses I have completed:
+                                    Here are some of the courses I have completed:
                                     <ul className='experience__list'>
                                         <li>Programming in RUST</li>
                                         <li>Intro to Database Systems</li>

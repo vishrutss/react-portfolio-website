@@ -26,7 +26,7 @@ const About = () => {
                         <article className="about__card">
                             <AiFillBook className='about__icon' />
                             <h5>Education</h5>
-                            <small>Pursuing MS in Computer Science</small>
+                            <small>MS in Computer Science</small>
                         </article>
                         <article className="about__card">
                             <AiOutlineCode className='about__icon' />
@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                     <p>
                         Hello, my name is Vishrut, and I am a Software Engineer with extensive expertise in Java, Python, and Node.js. I am passionate about AI and Machine Learning, and my primary focus is on Java and Python web development. Additionally, I have experience in RUST and JavaScript.<br /><br />
-                        I invite you to explore my portfolio, where you can find a list of my projects. I am currently pursuing my Master's in Computer Science at Portland State University, further expanding my knowledge and skills in the field.<br /><br />
+                        I invite you to explore my portfolio, where you can find a list of my projects. I am a Master's in Computer Science graduate at Portland State University, further expanding my knowledge and skills in the field.<br /><br />
                         Thank you for visiting my profile, and I look forward to connecting with you.
                     </p>
 
